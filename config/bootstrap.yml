@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: cashpoint-service
+  main:
+    allow-bean-definition-overriding: true
+  profiles.active: dev
+  cloud:
+    config:
+      uri: http://172.17.10.83:8888
+      #uri: http://127.0.0.1:8888
+      #uri: http://172.16.10.13:8888
+      #label: development
+
+
+
